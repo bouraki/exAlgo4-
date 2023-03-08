@@ -1,0 +1,19 @@
+ALGORITHM Is palindrome
+VAR
+  isPalindrome = STRING  
+
+BEGIN
+    function isPalindrome(word):
+    if length(word) <= 1:
+        return true
+        //if the first character of word == the last character of word:
+    else if isPalindrome.shift() == isPalindrome.pop()
+        return isPalindrome(substring of word from second character to second-last character)
+    else:
+        return false 
+        //the word is not a palindrome
+END
+
+
+
+
